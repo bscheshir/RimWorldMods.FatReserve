@@ -16,35 +16,34 @@
 		</li>
 	</modDependencies>
 	<description>
+Добавляет механику нагула жира для домашних животных.
 
-		Добавляет механику нагула жира для домашних животных.
+При включении заставляет животных наедаться до полной шкалы, чтобы лучше переносить дальнейшие суровые условия — например, полёт стада трумбо в гравикорабле на астероид.
 
-		При включении заставляет животных наедаться до полной шкалы, чтобы лучше переносить дальнейшие суровые условия — например, полёт стада трумбо в гравикорабле на астероид.
+Основные возможности:
+- Управление активностью нагула индивидуально или для породы.
+- Динамические подсказки на кнопке, контекстное меню по ПКМ.
+- Колонка в таблице "Животные", контекстное меню по ПКМ.
+- Различные режимы: сброс при смене карты (караваны приходят, гравилёт прилетает) или запись параметров к особи независимо от карты.
+- В настройках можно установить поведение по умолчанию для новых животных — включено или отключено — как глобально, так и для каждой породы, а также верхний порог сытости.
 
-		Основные возможности:
-		- Управление активностью нагула индивидуально или для породы.
-		- Динамические подсказки на кнопке, контекстное меню по ПКМ.
-		- Колонка в таблице "Животные", контекстное меню по ПКМ.
-		- Различные режимы: сброс при смене карты (караваны приходят, гравилёт прилетает) или запись параметров к особи независимо от карты.
-		- В настройках можно установить поведение по умолчанию для новых животных — включено или отключено — как глобально, так и для каждой породы, а также верхний порог сытости.
+-----------------------------------------
 
-		-----------------------------------------
+Adds a fat reserve (fattening) mechanic for domestic animals.
 
-		Adds a fat reserve (fattening) mechanic for domestic animals.
+When enabled, it forces animals to eat until their nutrition bar is completely full, allowing them to better endure upcoming harsh conditions — such as transporting a herd of Thrombo in a gravity ship to an asteroid.
 
-		When enabled, it forces animals to eat until their nutrition bar is completely full, allowing them to better endure upcoming harsh conditions — such as transporting a herd of Thrombo in a gravity ship to an asteroid.
+Key features:
+- Manage fattening activity individually per animal or for the entire breed.
+- Dynamic tooltips on the gizmo button and a context menu via Right-Click.
+- Dedicated column in the "Animals" tab with a full context menu via Right-Click.
+- Flexible storage modes: reset states when changing maps (caravans arriving, gravity ships landing) or bind parameters directly to the creature regardless of location.
+- Comprehensive mod settings: set default behavior for new animals (enabled/disabled) both globally and per breed, as well as configure the target nutrition threshold.
 
-		Key features:
-		- Manage fattening activity individually per animal or for the entire breed.
-		- Dynamic tooltips on the gizmo button and a context menu via Right-Click.
-		- Dedicated column in the "Animals" tab with a full context menu via Right-Click.
-		- Flexible storage modes: reset states when changing maps (caravans arriving, gravity ships landing) or bind parameters directly to the creature regardless of location.
-		- Comprehensive mod settings: set default behavior for new animals (enabled/disabled) both globally and per breed, as well as configure the target nutrition threshold.
-
-		------------------------------------
-		Supported Languages:
-		- [EN] English
-		- [RU] Russian / Русский
-		-----------------------------------------
+------------------------------------
+Supported Languages:
+- [EN] English
+- [RU] Russian / Русский
+-----------------------------------------
 	</description>
 </ModMetaData>
