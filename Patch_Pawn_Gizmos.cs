@@ -55,7 +55,7 @@ namespace FatReserve
                 yield return gizmo;
             }
 
-            if (__instance.RaceProps.Animal && __instance.Faction == Faction.OfPlayer && __instance.Spawned)
+            if (__instance.Faction == Faction.OfPlayer && FatReserveUtility.IsValidFatteningAnimal(__instance))
             {
                 var manager = __instance.Map?.GetComponent<FatReserveToggleManager>();
                 if (manager == null) yield break;

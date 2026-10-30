@@ -229,7 +229,7 @@ namespace FatReserve
             cachedAnimalDefs = new List<ThingDef>();
             foreach (ThingDef def in DefDatabase<ThingDef>.AllDefs)
             {
-                if (def.race != null && def.race.Animal && def.thingClass == typeof(Pawn) && def.race.IsFlesh)
+                if (FatReserveUtility.IsValidFatteningAnimalDef(def))
                 {
                     cachedAnimalDefs.Add(def);
                 }

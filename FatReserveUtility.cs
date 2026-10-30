@@ -170,16 +170,35 @@ namespace FatReserve
             return option;
         }
 
+        // Фильтр пород ThingDef (Определений пород в базе данных)
+        public static bool IsValidFatteningAnimalDef(ThingDef def)
+        {
+            return def?.race != null
+                   && def.race.Animal
+                   && def.thingClass == typeof(Pawn)
+                   && def.race.IsFlesh
+                   && def.race.foodType != FoodTypeFlags.None;
+        }
+
+        //Фильтр существ (Pawn на карте)
+        public static bool IsValidFatteningAnimal(Pawn pawn)
+        {
+            return pawn != null
+                   && pawn.Spawned
+                   && pawn.needs?.food != null
+                   && IsValidFatteningAnimalDef(pawn.def);
+        }
+
         public static bool ShouldApplyReserve(Pawn pawn)
         {
-            if (pawn == null || !pawn.Spawned) return false;
+            if (!IsValidFatteningAnimal(pawn)) return false;
+
             var manager = pawn.Map?.GetComponent<FatReserveToggleManager>();
             if (manager == null) return false;
             if (!manager.IsReserveEnabled(pawn)) return false;
 
-            Need_Food foodNeed = pawn.needs?.food;
-            if (foodNeed == null) return false;
-            return foodNeed.CurLevelPercentage < FatReserveMod.Settings.targetNutritionThreshold;
+            return pawn.needs.food.CurLevelPercentage < FatReserveMod.Settings.targetNutritionThreshold;
         }
+
     }
 }
