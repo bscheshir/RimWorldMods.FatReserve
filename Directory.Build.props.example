@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Локальный файл конфигов-->
+<Project>
+	<PropertyGroup>
+		<RimWorldPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld</RimWorldPath>
+		<ModFolder>$(RimWorldPath)\Mods\FatReserve</ModFolder>
+		<ReferencesFolder>..\_References</ReferencesFolder>
+	</PropertyGroup>
+</Project>

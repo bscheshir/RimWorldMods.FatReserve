@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Fat Reserve Column Localization -->
+	<FR_FatReserveToggle.label>Fattening</FR_FatReserveToggle.label>
+	<FR_FatReserveToggle.headerTip>Fat reserve mode. When enabled, the animal will continuously seek food within its allowed zone until its nutrition bar is filled up to 95% (configurable).</FR_FatReserveToggle.headerTip>
+
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnColumnDef>
+		<defName>FR_FatReserveToggle</defName>
+		<workerClass>FatReserve.PawnColumnWorker_FatReserve</workerClass>
+		<sortable>true</sortable>
+		<headerIcon>UI/Icons/FatReserve_Column</headerIcon>
+		<headerIconSize>(24, 24)</headerIconSize>
+		<width>30</width>
+		<label>fattening</label>
+		<headerTip>Enable or disable continuous eating until 95% full (configurable).</headerTip>
+	</PawnColumnDef>
+</Defs>

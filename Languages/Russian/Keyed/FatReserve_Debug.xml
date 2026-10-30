@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<FatReserve.LogCoreInit>[FatReserve] Мод успешно запущен.</FatReserve.LogCoreInit>
+	<FatReserve.LogEnabled>[FatReserve] Режим резерва активирован для [{0}]. Целевой порог: {1}%.</FatReserve.LogEnabled>
+	<FatReserve.LogDisabled>[FatReserve] Режим резерва отключен для [{0}]. Возврат к стандартному ИИ.</FatReserve.LogDisabled>
+	<FatReserve.LogJobIntercept>[FatReserve] [{0}] Перехвачен Job: {1} -> Принудительно заменен на: {2} ({3}). Сытость: {4}%</FatReserve.LogJobIntercept>
+</LanguageData>

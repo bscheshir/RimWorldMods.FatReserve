@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<FatReserve.LogCoreInit>[FatReserve] Mod successfully initialized.</FatReserve.LogCoreInit>
+	<FatReserve.LogEnabled>[FatReserve] Reserve mode activated for [{0}]. Target threshold: {1}%.</FatReserve.LogEnabled>
+	<FatReserve.LogDisabled>[FatReserve] Reserve mode deactivated for [{0}]. Returning to standard AI.</FatReserve.LogDisabled>
+	<FatReserve.LogJobIntercept>[FatReserve] [{0}] Intercepted Job: {1} -> Forced replacement with: {2} ({3}). Nutrition: {4}%</FatReserve.LogJobIntercept>
+</LanguageData>

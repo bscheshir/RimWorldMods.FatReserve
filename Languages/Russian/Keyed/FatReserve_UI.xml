@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- ОБЩИЕ МЕТАДАННЫЕ -->
+	<FatReserve_ModName>Нагул жира (FatReserve)</FatReserve_ModName>
+	<FatReserve_TextStateOn>Вкл</FatReserve_TextStateOn>
+	<FatReserve_TextStateOff>Выкл</FatReserve_TextStateOff>
+
+	<!-- ОПЦИИ МЕНЮ НАСТРОЕК МОДА -->
+	<FatReserve_SettingThreshold>Целевой порог сытости: {0}%</FatReserve_SettingThreshold>
+	<FatReserve_SettingDefaultState>Статус по умолчанию (для всех новых)</FatReserve_SettingDefaultState>
+	<FatReserve_SettingDefaultStateDesc>Определяет стартовое состояние нагула (ВКЛ или ВЫКЛ) для всех животных, которые только что родились, купились у торговцев или впервые встречены модом.</FatReserve_SettingDefaultStateDesc>
+	<FatReserve_SettingRaceListLabel>Индивидуальные настройки умолчания для конкретных пород:</FatReserve_SettingRaceListLabel>
+	<FatReserve_SettingStorageModeLabel>Режим сохранения активности переключателей:</FatReserve_SettingStorageModeLabel>
+	<FatReserve_SettingStorageModeDesc>Определяет, как будет сохранятся переключённый игроком режим для конкретного животного. "Карта" привязывает настройку к локации, при смене локации настройка сбрасывается. "Животное" зашивает настройку в саму особь.</FatReserve_SettingStorageModeDesc>
+
+	<FatReserve_StorageMode_Map>Привязка к карте</FatReserve_StorageMode_Map>
+	<FatReserve_StorageMode_Pawn>Привязка к животному</FatReserve_StorageMode_Pawn>
+
+	<FatReserve_BtnEnableAll>Включить всё</FatReserve_BtnEnableAll>
+	<FatReserve_BtnDisableAll>Выключить всё</FatReserve_BtnDisableAll>
+
+	<!-- СТРОКИ КНОПКИ ГИЗМО И ПОДСПКАЗОК -->
+	<FatReserve_GizmoLabel>Нагул</FatReserve_GizmoLabel>
+	<FatReserve_GizmoMouseHint>[ЛКМ] — Индивидуально (Вкл/Выкл)\n[ПКМ] — Шаблоны породы</FatReserve_GizmoMouseHint>
+
+	<!-- Градация 1: Текущий статус -->
+	<FatReserve_GizmoDesc_StateOn>Режим нагула жира: включён.</FatReserve_GizmoDesc_StateOn>
+	<FatReserve_GizmoDesc_StateOff>Режим нагула жира: выключен.</FatReserve_GizmoDesc_StateOff>
+
+	<!-- Градация 2: Источник / Причина текущего состояния -->
+	<FatReserve_GizmoDesc_ReasonManual>\nУстановлено вручную.</FatReserve_GizmoDesc_ReasonManual>
+	<FatReserve_GizmoDesc_ReasonRaceOn>\nДействует по шаблону для всей породы (Вкл).</FatReserve_GizmoDesc_ReasonRaceOn>
+	<FatReserve_GizmoDesc_ReasonRaceOff>\nДействует по шаблону для всей породы (Выкл).</FatReserve_GizmoDesc_ReasonRaceOff>
+	<FatReserve_GizmoDesc_ReasonGlobalOn>\nДействует по общему правилу по умолчанию (Вкл).</FatReserve_GizmoDesc_ReasonGlobalOn>
+	<FatReserve_GizmoDesc_ReasonGlobalOff>\nДействует по общему правилу по умолчанию (Выкл).</FatReserve_GizmoDesc_ReasonGlobalOff>
+
+	<!-- Градация 3: Информационные отличия (для C# .Colorize) -->
+	<FatReserve_GizmoDesc_DiffFromBirth>\nИзменено относительно начального ({0}).</FatReserve_GizmoDesc_DiffFromBirth>
+	<FatReserve_GizmoDesc_DiffFromGlobalTemplate>\nНе совпадает с актуальным поведением по умолчанию для новых особей.</FatReserve_GizmoDesc_DiffFromGlobalTemplate>
+	<FatReserve_GizmoDesc_DiffFromRaceTemplate>\nНе совпадает с актуальным поведением по умолчанию для новых особей породы {0}.</FatReserve_GizmoDesc_DiffFromRaceTemplate>
+
+	<!-- ОПЦИИ КОНТЕКСТНОГО МЕНЮ ПКМ (8 ПУНКТОВ) -->
+	<FatReserve_MenuRaceMapOn_Prefix>Включить нагул жира для породы в пределах карты:</FatReserve_MenuRaceMapOn_Prefix>
+	<FatReserve_MenuRaceMapOff_Prefix>Выключить нагул жира для породы в пределах карты:</FatReserve_MenuRaceMapOff_Prefix>
+
+	<FatReserve_MenuRaceGlobalOn_Prefix>Включить нагул жира для породы глобально:</FatReserve_MenuRaceGlobalOn_Prefix>
+	<FatReserve_MenuRaceGlobalOff_Prefix>Выключить нагул жира для породы глобально:</FatReserve_MenuRaceGlobalOff_Prefix>
+
+	<FatReserve_MenuRaceDefaultOn_Prefix>Включить нагул по умолчанию для новых животных породы:</FatReserve_MenuRaceDefaultOn_Prefix>
+	<FatReserve_MenuRaceDefaultOff_Prefix>Выключить нагул по умолчанию для новых животных породы:</FatReserve_MenuRaceDefaultOff_Prefix>
+
+	<FatReserve_MenuAllGlobalOn_Prefix>Включить нагул по умолчанию для ВСЕХ новых существ</FatReserve_MenuAllGlobalOn_Prefix>
+	<FatReserve_MenuAllGlobalOff_Prefix>Выключить нагул по умолчанию для ВСЕХ новых существ</FatReserve_MenuAllGlobalOff_Prefix>
+
+</LanguageData>

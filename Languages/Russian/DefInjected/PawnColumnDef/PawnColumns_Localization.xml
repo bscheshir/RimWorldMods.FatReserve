@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Локализация колонки Жирового запаса -->
+	<FR_FatReserveToggle.label>Нагул</FR_FatReserveToggle.label>
+	<FR_FatReserveToggle.headerTip>Режим нагула жира. Если активно, животное будет непрерывно искать пищу в пределах своей разрешенной зоны, пока шкала сытости не заполнится до 95% (настраиваемо).</FR_FatReserveToggle.headerTip>
+
+</LanguageData>

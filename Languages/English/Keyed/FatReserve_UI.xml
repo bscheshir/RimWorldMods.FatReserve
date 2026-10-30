@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- GENERAL METADATA -->
+	<FatReserve_ModName>Fat Reserve</FatReserve_ModName>
+	<FatReserve_TextStateOn>On</FatReserve_TextStateOn>
+	<FatReserve_TextStateOff>Off</FatReserve_TextStateOff>
+
+	<!-- MOD SETTINGS OPTIONS -->
+	<FatReserve_SettingThreshold>Target nutrition threshold: {0}%</FatReserve_SettingThreshold>
+	<FatReserve_SettingDefaultState>Default status (for all new arrivals)</FatReserve_SettingDefaultState>
+	<FatReserve_SettingDefaultStateDesc>Determines the initial fattening state (ON or OFF) for all animals that are newly born, purchased from traders, or encountered by the mod for the first time.</FatReserve_SettingDefaultStateDesc>
+	<FatReserve_SettingRaceListLabel>Individual breed default settings:</FatReserve_SettingRaceListLabel>
+	<FatReserve_SettingStorageModeLabel>Toggle state storage mode:</FatReserve_SettingStorageModeLabel>
+	<FatReserve_SettingStorageModeDesc>Determines how the player-toggled mode is saved for a specific animal. "Map" binds the setting to the location, and the setting resets when changing locations. "Animal" embeds the setting directly into the creature itself.</FatReserve_SettingStorageModeDesc>
+
+	<FatReserve_StorageMode_Map>Bind to map</FatReserve_StorageMode_Map>
+	<FatReserve_StorageMode_Pawn>Bind to animal</FatReserve_StorageMode_Pawn>
+
+	<FatReserve_BtnEnableAll>Enable All</FatReserve_BtnEnableAll>
+	<FatReserve_BtnDisableAll>Disable All</FatReserve_BtnDisableAll>
+
+	<!-- GIZMO BUTTONS AND TOOLTIPS -->
+	<FatReserve_GizmoLabel>Fattening</FatReserve_GizmoLabel>
+	<FatReserve_GizmoMouseHint>[LMB] — Individual (On/Off)\n[RMB] — Breed templates</FatReserve_GizmoMouseHint>
+
+	<!-- Grade 1: Current Status -->
+	<FatReserve_GizmoDesc_StateOn>Fat reserve mode: enabled.</FatReserve_GizmoDesc_StateOn>
+	<FatReserve_GizmoDesc_StateOff>Fat reserve mode: disabled.</FatReserve_GizmoDesc_StateOff>
+
+	<!-- Grade 2: Status Source / Reason -->
+	<FatReserve_GizmoDesc_ReasonManual>\nSet manually.</FatReserve_GizmoDesc_ReasonManual>
+	<FatReserve_GizmoDesc_ReasonRaceOn>\nFollowing breed template (On).</FatReserve_GizmoDesc_ReasonRaceOn>
+	<FatReserve_GizmoDesc_ReasonRaceOff>\nFollowing breed template (Off).</FatReserve_GizmoDesc_ReasonRaceOff>
+	<FatReserve_GizmoDesc_ReasonGlobalOn>\nFollowing general default rule (On).</FatReserve_GizmoDesc_ReasonGlobalOn>
+	<FatReserve_GizmoDesc_ReasonGlobalOff>\nFollowing general default rule (Off).</FatReserve_GizmoDesc_ReasonGlobalOff>
+
+	<!-- Grade 3: Informational Discrepancies and History -->
+	<FatReserve_GizmoDesc_DiffFromBirth>\nChanged relative to initial ({0}).</FatReserve_GizmoDesc_DiffFromBirth>
+	<FatReserve_GizmoDesc_DiffFromGlobalTemplate>\nDoes not match current default behavior for new animals.</FatReserve_GizmoDesc_DiffFromGlobalTemplate>
+	<FatReserve_GizmoDesc_DiffFromRaceTemplate>\nDoes not match current default behavior for new animals of the {0} breed.</FatReserve_GizmoDesc_DiffFromRaceTemplate>
+
+	<!-- CONTEXT FLOAT MENU OPTIONS (RMB) -->
+	<FatReserve_MenuRaceMapOn_Prefix>Enable fat reserve for breed on current map:</FatReserve_MenuRaceMapOn_Prefix>
+	<FatReserve_MenuRaceMapOff_Prefix>Disable fat reserve for breed on current map:</FatReserve_MenuRaceMapOff_Prefix>
+
+	<FatReserve_MenuRaceGlobalOn_Prefix>Enable fat reserve for breed globally:</FatReserve_MenuRaceGlobalOn_Prefix>
+	<FatReserve_MenuRaceGlobalOff_Prefix>Disable fat reserve for breed globally:</FatReserve_MenuRaceGlobalOff_Prefix>
+
+	<FatReserve_MenuRaceDefaultOn_Prefix>Enable default fattening for new animals of breed:</FatReserve_MenuRaceDefaultOn_Prefix>
+	<FatReserve_MenuRaceDefaultOff_Prefix>Disable default fattening for new animals of breed:</FatReserve_MenuRaceDefaultOff_Prefix>
+
+	<FatReserve_MenuAllGlobalOn_Prefix>Enable default fattening for ALL new creatures</FatReserve_MenuAllGlobalOn_Prefix>
+	<FatReserve_MenuAllGlobalOff_Prefix>Disable default fattening for ALL new creatures</FatReserve_MenuAllGlobalOff_Prefix>
+
+</LanguageData>
