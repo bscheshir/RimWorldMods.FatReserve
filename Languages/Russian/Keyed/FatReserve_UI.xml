@@ -17,6 +17,8 @@
 	<FatReserve_StorageMode_Map>Привязка к карте</FatReserve_StorageMode_Map>
 	<FatReserve_StorageMode_Pawn>Привязка к животному</FatReserve_StorageMode_Pawn>
 
+	<FatReserve_SettingApplyInCaravan>Применять включённый режим набора жира, даже когда животное отправлено в караване</FatReserve_SettingApplyInCaravan>
+
 	<FatReserve_BtnEnableAll>Включить всё</FatReserve_BtnEnableAll>
 	<FatReserve_BtnDisableAll>Выключить всё</FatReserve_BtnDisableAll>
 

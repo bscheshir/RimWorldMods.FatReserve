@@ -1,5 +1,6 @@
-using System.Collections.Generic;
 using RimWorld;
+using RimWorld.Planet;
+using System.Collections.Generic;
 using UnityEngine;
 using Verse;
 
@@ -183,10 +184,32 @@ namespace FatReserve
         //Фильтр существ (Pawn на карте)
         public static bool IsValidFatteningAnimal(Pawn pawn)
         {
-            return pawn != null
-                   && pawn.Spawned
-                   && pawn.needs?.food != null
-                   && IsValidFatteningAnimalDef(pawn.def);
+            if (pawn == null || pawn.needs?.food == null || !IsValidFatteningAnimalDef(pawn.def))
+            {
+                return false;
+            }
+            switch (FatReserveMod.Settings.storageMode)
+            {
+                case StorageMode.Map:
+                    // Для режима КАРТЫ: животное ОБЯЗАНО быть физически заспавнено на активной локации
+                    return pawn.Spawned && pawn.Map != null;
+
+                case StorageMode.Pawn:
+                    // Для режима ЖИВОТНОГО: если пешка на карте — она валидна.
+                    if (pawn.Spawned && pawn.Map != null)
+                    {
+                        return true;
+                    }
+                    // Если пешка в караване — разрешил ли игрок разрешать жировать в пути, согласно настройкам (ну, а вдруг)
+                    if (FatReserveMod.Settings.applyInCaravan && pawn.IsCaravanMember())
+                    {
+                        return true;
+                    }
+                    return false;
+
+                default:
+                    return false;
+            }
         }
 
         public static bool ShouldApplyReserve(Pawn pawn)

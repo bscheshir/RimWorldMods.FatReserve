@@ -193,6 +193,19 @@ namespace FatReserve
             listing.Gap(5f);
             listing.Label("FatReserve_SettingStorageModeDesc".Translate(), -1f);
 
+            if (FatReserveMod.Settings.storageMode == StorageMode.Pawn)
+            {
+                listing.Gap(5f);
+                listing.CheckboxLabeled(
+                    "FatReserve_SettingApplyInCaravan".Translate(),
+                    ref FatReserveMod.Settings.applyInCaravan
+                );
+            }
+            else
+            {
+                FatReserveMod.Settings.applyInCaravan = false;
+            }
+
             listing.End();
         }
 
