@@ -185,6 +185,7 @@ namespace FatReserve
         {
             return pawn != null
                    && pawn.Spawned
+                   && pawn.Map != null
                    && pawn.needs?.food != null
                    && IsValidFatteningAnimalDef(pawn.def);
         }
