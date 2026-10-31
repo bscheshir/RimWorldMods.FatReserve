@@ -17,8 +17,6 @@
 	<FatReserve_StorageMode_Map>Bind to map</FatReserve_StorageMode_Map>
 	<FatReserve_StorageMode_Pawn>Bind to animal</FatReserve_StorageMode_Pawn>
 
-	<FatReserve_SettingApplyInCaravan>Apply active fattening mode even when the animal is sent in a caravan</FatReserve_SettingApplyInCaravan>
-
 	<FatReserve_BtnEnableAll>Enable All</FatReserve_BtnEnableAll>
 	<FatReserve_BtnDisableAll>Disable All</FatReserve_BtnDisableAll>
 
