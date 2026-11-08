@@ -143,7 +143,7 @@ namespace FatReserve
             Scribe_Collections.Look(ref userChoices, "pawnStates_Choices", LookMode.Value);
             Scribe_Collections.Look(ref inheritedDefaults, "pawnStates_Defaults", LookMode.Value);
 
-            if (Scribe.mode == LoadSaveMode.PostLoadInit)
+            if (Scribe.mode == LoadSaveMode.LoadingVars)
             {
                 pawnStates = new Dictionary<int, Tuple<bool?, bool>>();
                 if (keys != null && userChoices != null && inheritedDefaults != null)
